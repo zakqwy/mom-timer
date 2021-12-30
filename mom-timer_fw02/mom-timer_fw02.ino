@@ -9,6 +9,11 @@
   three LEDs, a potentiometer, a speaker, and an Adafruit SSD1306 32x128 I2C OLED display.
 
   MIT license.
+
+  update 12-29-2021:
+  fixed timer reset bug (so green button can stop alarm)
+  added alarm descending tone upon reset
+  updated instructions to verify knob/button work
 */
 
 #include <SPI.h>
